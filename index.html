@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TruffleCRM — Gestão de Produção Artesanal</title>
+    <title>VH Trufas — Gestão de Produção Artesanal</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
@@ -617,7 +617,7 @@ const App = {
         XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(dadosVendas), 'Vendas');
         XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(dadosCustos), 'Custos');
         XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(resumo), 'Resumo Financeiro');
-        XLSX.writeFile(wb, `TruffleCRM_${mes}.xlsx`);
+        XLSX.writeFile(wb, `VHtrufas_${mes}.xlsx`);
     },
 
     /* ─── RENDER ─── */
@@ -640,7 +640,7 @@ const App = {
                     <div class="logo">
                         <div class="logo-icon">🍫</div>
                         <div>
-                            <div class="logo-text">TruffleCRM</div>
+                            <div class="logo-text">VH Trufas</div>
                             <div class="logo-sub">Gestão Artesanal</div>
                         </div>
                     </div>
@@ -675,8 +675,8 @@ const App = {
             <div class="login-card">
                 <div class="login-logo">
                     <div class="login-logo-icon">🍫</div>
-                    <div class="login-title">TruffleCRM</div>
-                    <div class="login-sub">Gestão Completa de Produção Artesanal</div>
+                    <div class="login-title">VH Trufas</div>
+                    <div class="login-sub">Trufas Artesanais & Doces — Varejo e Atacado</div>
                 </div>
                 <div class="input-group">
                     <label class="input-label">Seu nome</label>
